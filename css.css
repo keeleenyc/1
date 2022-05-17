@@ -1,0 +1,281 @@
+/*.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display:inline;
+}*/
+
+.nav {
+display: flex;
+justify-content: flex-end;
+text-align: center;
+font-family: 'Dancing Script', cursive;
+}
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 64px;
+}
+.warning, p, li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+  font-size: 27px;
+  line-height: 45px;
+  padding-left:.5em;
+}
+.rates {
+font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+}
+
+iframe {
+  margin-right: 3em;
+  margin-left: 3em;
+
+}
+#passw {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
+  margin-left: 1em;
+}
+
+#HIDDENDIV {
+    display: none;
+}
+
+#table td {
+  display: none;
+    /* padding: 1em;
+    border: 1px solid black; */
+}
+
+
+#table.show tr > *:nth-child(2) {
+    display: block;
+}
+
+
+
+
+body {
+background:white !important;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:black
+}
+
+
+
+a {
+  margin: 10px;
+  color: #ff99cc;
+  font-size: 32px;
+  font-weight: 100;
+  text-decoration: none !important;
+  font-family: 'Dancing Script', cursive;
+  /*height: 40px;
+  width: 40px;*/
+}
+.landing-picture {
+  margin-top: 20px;
+}
+.custom {
+  margin-top: 10px;
+  margin-left: 0px;
+
+}
+.ps {
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+.name {
+  color: #ff99cc!important;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+font-family: 'Dancing Script', cursive;
+padding-left: 1em;
+  font-weight:900 !important;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive !important;
+}
+.img-fluid {
+  max-width: 100%;
+  height:auto;
+  border: 8px solid #ff99cc!important;
+}
+.about {
+margin-top: 40px;
+font-family: 'Play', sans-serif;
+font-size: 24px;
+line-height: 40px;
+pointer-events: none;
+color:white !important;
+}
+tr {
+  border-bottom: 2px dotted #ff99cc;
+}
+
+.btn{
+  background: #ff99cc;
+  border-color: #ff99cc
+}
+
+.btn:hover{
+  background: #ff99cc;
+  border-color: #ff99cc
+}
+
+
+h1.smaller {
+  color: #ff99cc;
+  font-size: 50px;
+  font-weight:900;
+font-family: 'Dancing Script', cursive;
+
+}
+
+p.sans {
+  font-family: 'Fira Sans', sans-serif !important;
+}
+
+#sliders p {
+  margin: 10px;
+  color: #ff99cc;
+  font-size: 16px;
+font-family: 'Fira Sans', sans-serif;
+margin-left:0px !important;
+}
+
+#slide-1 {
+
+  display: none;
+
+}
+#slide-2 {
+  margin-left: 60px;
+  display: none;
+
+}
+#slide-3 {
+  margin-left: 60px;
+  display: none;
+}
+#slide-4 {
+  margin-left: 60px;
+  display: none;
+}
+#slide-5 {
+  margin-left: 60px;
+  display: none;
+}
+#slide-6 {
+  margin-left: 60px;
+  display: none;
+}
+#slide-7 {
+  margin-left: 60px;
+  display: none;
+}
+.gifts {
+ pointer-events: none;
+  margin-top: 30px;
+}
+.gallery {
+  margin-top: 40px;
+}
+.scrollTop {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+.thumbnail {
+  border: 2px solid #ff99cc!important;
+ margin-bottom: 3px;
+ pointer-events: none;
+}
+.border {
+  border: 2px solid #ff99cc!important;
+}
+.contact {
+  font-size: 28px;
+  color: black;
+  margin-top: 40px;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.noClick {
+    border: 8px solid #ff99cc!important;
+    pointer-events: none;
+}
+
+.email {
+  font-size: 28px;
+  color: #ff99cc;
+  text-decoration:underline;
+  margin-top: 0px;
+  font-weight: 100;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.contact2 {
+  margin: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+  .name {
+    padding-left:0em;
+  }
+
+  .nav {
+    margin-left: 0em;
+  }
+
+  h1 {
+    font-size:50px
+  }
+
+  a {
+    margin: 5px;
+    color: #ff99cc;
+    font-size: 31px;
+    font-weight: 100;
+    text-decoration: none !important;
+    font-family: 'Dancing Script', cursive;
+}
+
+li {
+  padding-right: .2em;
+    padding-left: .2em;
+}
+}
+
+
+@media (max-width:767px) {
+  .nav {
+    display: flex;
+    /* justify-content: flex-end; */
+    /* text-align: center; */
+    font-family: 'Dancing Script', cursive;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    aling-items: flex-start;
+    align-items: flex-start;
+    margin-left: 0em;
+}
+
+li {
+  border-left: none;
+}
+}
+
+@media (max-width:1024px) {
+  #sliders p {
+    margin: 10px;
+    color: #ff99cc;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 20px;
+}
+}
+
